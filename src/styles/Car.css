@@ -1,0 +1,82 @@
+.car_item{
+    width: 100%;
+    margin: 20px 0;
+}
+.item_top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+    .select-item{
+        width: 100px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .remove-item{
+        width: 100px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-item{
+        width: 100px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: grey;
+    }
+.item_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: dotted 3px black;
+}
+    .a{
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: blueviolet;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .b{
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: blueviolet;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .car{
+        align-self: flex-end;
+        width: 100px;
+        height: 50px;
+        background-color: blanchedalmond;
+        fill: red;
+    }
+    .end-line{
+        position: relative;
+        left: 500px;
+        align-self: flex-end;
+    }
