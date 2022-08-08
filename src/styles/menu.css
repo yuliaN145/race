@@ -1,6 +1,6 @@
 .menu_btn{
     border: 1px solid black;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     background-color: rgb(0, 255, 55);
 
     width: 150px;
@@ -13,7 +13,7 @@
 
 .menu_btn_long{
     border: 1px solid black;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     background-color: blueviolet;
 
     width: 200px;

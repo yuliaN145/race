@@ -1,0 +1,28 @@
+html{
+    background-color: rgb(139, 245, 231);
+}
+.winners{
+    padding-left: 15px;
+    background-color:  rgb(139, 245, 231);
+    height: 90vh;
+}
+.winners-box{
+    width: fit-content;
+    align-items: center;
+}
+.winners-top{
+    display: flex;
+    background-color: azure;
+    width: fit-content;
+}
+.winners-top-item{
+    padding: 10px;
+    margin: 10px;
+}
+.winners-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
