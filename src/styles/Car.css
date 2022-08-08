@@ -76,7 +76,18 @@
         fill: red;
     }
     .end-line{
-        position: relative;
-        left: 500px;
+        position: absolute;
+        right: 130px;
         align-self: flex-end;
     }
+    .item__car {
+        position: relative;
+    }
+    @keyframes move {
+        0% {
+          left: 0;
+        }
+        100% {
+          left: calc(100% - 170px);
+        }
+      }
